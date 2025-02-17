@@ -29,9 +29,9 @@
 
 #define MY_GPIO_ADC_IN_INIT        26UL   // OK (Colocar no adc_gpio_init())
 
-#define MY_GPIO_ADC_IN_CH_MICROFONE   2UL // OK (Colocar no adc_select_input())
-#define MY_GPIO_ADC_IN_CH_JOYSTICK_Y  0UL // OK (Colocar no adc_select_input())
-#define MY_GPIO_ADC_IN_CH_JOYSTICK_X  1UL // OK (Colocar no adc_select_input())
+#define MY_GPIO_ADC_IN_CH_MICROFONE   28UL  // 2UL // OK (Colocar no adc_select_input())
+#define MY_GPIO_ADC_IN_CH_JOYSTICK_Y  26UL  // 0UL // OK (Colocar no adc_select_input())
+#define MY_GPIO_ADC_IN_CH_JOYSTICK_X  27UL  // 1UL // OK (Colocar no adc_select_input())
 
 
 // --- pinos i2c

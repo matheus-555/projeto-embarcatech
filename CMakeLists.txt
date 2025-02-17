@@ -50,6 +50,7 @@ add_executable(firmware-embarcatech
     ${CMAKE_SOURCE_DIR}/libs/my_std_debug/my_std_debug.c
     ${CMAKE_SOURCE_DIR}/libs/my_modbus_master/my_modbus_master.c
     ${CMAKE_SOURCE_DIR}/libs/ssd1306/ssd1306.c
+    ${CMAKE_SOURCE_DIR}/libs/my_dma/my_dma.c
 )
 
 pico_set_program_name(firmware-embarcatech "firmware-embarcatech")
@@ -77,6 +78,7 @@ target_include_directories(firmware-embarcatech PRIVATE
     ${CMAKE_SOURCE_DIR}/libs/my_modbus_master/
     ${CMAKE_SOURCE_DIR}/libs/lwip
     ${CMAKE_SOURCE_DIR}/libs/ssd1306/
+    ${CMAKE_SOURCE_DIR}/libs/my_dma/
 )
 
 

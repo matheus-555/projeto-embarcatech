@@ -48,6 +48,10 @@
         "my_modbus_master.h": "c",
         "cstdlib": "c",
         "stdbool.h": "c",
-        "stdatomic.h": "c"
+        "stdatomic.h": "c",
+        "my_adc.h": "c",
+        "adc.h": "c",
+        "dma.h": "c",
+        "my_std_debug.h": "c"
     }
 }

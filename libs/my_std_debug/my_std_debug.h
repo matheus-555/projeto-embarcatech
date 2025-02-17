@@ -1,6 +1,7 @@
 #ifndef __MY_STD_DEBUG_H__  
 #define __MY_STD_DEBUG_H__
 
+#include <stdio.h>
 #include "my_std_ret.h"
 
 
