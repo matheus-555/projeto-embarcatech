@@ -65,6 +65,8 @@ typedef struct {
   absolute_time_t press_last_time;
   uint press_counter;
   bool pressed_flag;
+  bool last_state;
+  bool current_state;
 } my_gpio_t;
 
 
